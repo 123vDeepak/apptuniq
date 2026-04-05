@@ -6,8 +6,8 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16">
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8 sm:gap-12 mb-12">
           <div>
-            <div className="mb-6">
-              <img src={logo} alt="Apptunix" className="h-10 sm:h-12 w-auto brightness-0 invert" />
+            <div className="mb-6 bg-[#fffaf0] w-fit p-3 rounded">
+              <img src={logo} alt="Apptunix" className="h-10 sm:h-12 w-auto" />
             </div>
             <p className="text-gray-300 mb-6">
               Transforming ideas into exceptional digital experiences since 2014.
