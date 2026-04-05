@@ -1,11 +1,11 @@
 import { useState } from 'react';
-import logo from 'figma:asset/3068515479d62f288430e94c6b1d789de72c6286.png';
+import logo from '../../assets/logo.png';
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <header className="fixed top-0 left-0 right-0 bg-white/95 backdrop-blur-sm z-50 border-b border-gray-100">
+    <header className="fixed top-0 left-0 right-0 bg-[#fffaf0] backdrop-blur-sm z-50 border-b border-gray-100">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
           <div className="flex items-center">
